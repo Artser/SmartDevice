@@ -1,3 +1,11 @@
-h1 {
-  color: red;
-}
+@import "global.scss";
+@import "blocks/page-header.scss";
+@import "blocks/about-company.scss";
+@import "blocks/advantages.scss";
+@import "blocks/wrapper.scss";
+@import "blocks/big-presentation.scss";
+@import "blocks/form.scss";
+@import "blocks/footer.scss";
+@import "blocks/popup.scss";
+@import "blocks/service.scss";
+@import "blocks/container.scss";
