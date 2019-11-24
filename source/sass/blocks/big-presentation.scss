@@ -1,0 +1,229 @@
+.big-presentasion {
+  max-width: 1452px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 229px auto 0;
+  position: relative;
+  // z-index: 5;
+}
+
+.big-presentasion h1 {
+  font-family: $roboto-con;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 94px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: $white;
+  margin-bottom: 27px;
+  margin-top: 0;
+  max-width: 780px;
+}
+
+.big-presentasion p {
+  position: relative;
+  font-family: $pt-mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: $white;
+  margin-left: 95px;
+  max-width: 680px;
+}
+
+.big-presentasion p:nth-child(2) {
+  position: relative;
+}
+
+.big-presentasion__white-line {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: -97px;
+  width: 66px;
+  height: 2px;
+  background: $white;
+}
+
+.big-presentasion__button {
+  display: flex;
+  max-width: 407px;
+  margin-left: 93px;
+  margin-top: 45px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  background-color: #00b2ff;
+  border: 1px solid $blue;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: $white;
+}
+
+.big-presentasion__button span {
+  font-family: $roboto-con;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  padding-top: 18px;
+  padding-right: 34px;
+  padding-bottom: 18px;
+  padding-left: 34px;
+  text-align: center;
+  max-width: 400px;
+  min-width: 391px;
+  min-height: 55px;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.big-presentasion__button:hover {
+  background: $white;
+  border: 1px solid $blue;
+  transition: all 0.3s ease;
+  color: $blue;
+}
+
+.big-presentasion__button span:hover {
+  color: $blue;
+  transition: all 0.3s ease;
+}
+
+.big-presentasion__button span:nth-child(2) {
+  display: none;
+}
+
+.big-presentasion img {
+  position: absolute;
+  right: -55px;
+  top: -198px;
+  // z-index: -1;
+  height: auto;
+  width: 49%;
+}
+
+@media (max-width: 1024px) {
+  .big-presentasion h1 {
+    max-width: 570px;
+  }
+
+  .big-presentasion p {
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .big-presentasion {
+    margin: 112px auto 0;
+  }
+
+  .big-presentasion__button {
+    margin-top: 55px;
+    margin-left: 118px;
+    max-width: 380px;
+  }
+
+  .big-presentasion h1 {
+    font-size: 60px;
+    line-height: 70px;
+    max-width: 485px;
+    margin-left: 70px;
+  }
+
+  .big-presentasion p {
+    font-size: 18px;
+    max-width: 470px;
+    line-height: 29px;
+    margin-left: 119px;
+  }
+
+  .big-presentasion__white-line {
+    width: 33px;
+    left: -47px;
+  }
+
+  .big-presentasion__button span {
+    max-width: 380px;
+    min-width: 370px;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-size: 16px;
+    line-height: 23px;
+    margin-left: 0;
+  }
+
+  .big-presentasion img {
+    right: -203px;
+    top: -213px;
+    width: 530px;
+    height: 492px;
+  }
+}
+
+@media (max-width: 767px) {
+  .big-presentasion {
+    padding-left: 17px;
+    padding-right: 16px;
+    margin: 230px auto 0;
+  }
+
+  .big-presentasion h1 {
+    font-size: 40px;
+    line-height: 47px;
+    margin-left: 0;
+    margin-top: 227px;
+  }
+
+  .big-presentasion p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: 49px;
+  }
+
+  .big-presentasion__white-line {
+    top: 15px;
+    left: -48px;
+  }
+
+  .big-presentasion__button span {
+    margin-top: 0;
+    margin-left: 0;
+    max-width: 290px;
+    min-width: 287px;
+    min-height: 55px;
+    letter-spacing: 0.07em;
+    padding-top: 13px;
+    padding-right: 28px;
+    padding-left: 20px;
+  }
+
+  .big-presentasion__button {
+    margin-top: 41px;
+    max-height: 55px;
+    margin-left: 0;
+    max-width: 290px;
+  }
+
+  .big-presentasion__button span:nth-child(1) {
+    display: none;
+  }
+
+  .big-presentasion__button span:nth-child(2) {
+    display: block;
+  }
+
+  .big-presentasion__button span::before {
+    display: none;
+  }
+
+  .big-presentasion img {
+    right: -325px;
+    top: -330px;
+    width: 615px;
+    height: 482px;
+  }
+}
