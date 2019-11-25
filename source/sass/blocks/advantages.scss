@@ -1,0 +1,185 @@
+.advantages {
+  padding-top: 112px;
+}
+
+.advantages__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.advantages__card-period {
+  position: absolute;
+  width: 30px;
+  height: 36px;
+  top: 35px;
+  fill: $blue;
+  //transition: all 0.3s ease;
+}
+
+.advantages__card-suppliers {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 35px;
+  fill: $blue;
+  //transition: all 0.3s ease;
+}
+
+.advantages__card-privacy {
+  position: absolute;
+  width: 36px;
+  height: 31px;
+  top: 35px;
+  fill: $blue;
+  //transition: all 0.3s ease;
+}
+
+.advantages__card-personalization {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 35px;
+  fill: $blue;
+  //transition: all 0.3s ease;
+}
+
+.advantages__card h2 {
+  font-family: $roboto-con;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  color: $blue;
+  position: relative;
+  //transition: all 0.3s ease;
+}
+
+.advantages__card {
+  border: 1px solid #ebebeb;
+  border-left: 3px solid $blue;
+  flex-basis: calc((100% / 2) - 15px);
+  margin-bottom: 29px;
+  padding-top: 73px;
+  padding-right: 35px;
+  padding-bottom: 30px;
+  padding-left: 43px;
+  min-height: 300px;
+  position: relative;
+  max-width: 49%;
+  background-color: $white;
+  //transition: all 0.3s ease;
+
+  &:hover {
+    background-color: $blue;
+    cursor: pointer;
+    color: $white;
+    border: 1px solid $blue;
+    border-left: 3px solid $blue;
+    //transition: all 0.3s ease;
+    & h2 {
+      //transition: all 0.3s ease;
+      color: $white;
+    }
+    & p {
+      //transition: all 0.3s ease;
+      color: $white;
+    }
+    & svg {
+      fill: $white;
+      //transition: all 0.3s ease;
+    }
+  }
+}
+
+.advantages__card p {
+  font-family: $pt-mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #666;
+  //transition: all 0.3s ease;
+}
+
+@media (max-width: 1024px) {}
+@media (max-width: 1023px) {
+  .advantages {
+    padding-top: 55px;
+  }
+
+  .advantages__card {
+    padding-top: 46px;
+    padding-right: 18px;
+    padding-bottom: 29px;
+    padding-left: 25px;
+    margin: 0 0 28px;
+    border-left: 2px solid #00b2ff;
+    min-height: auto;
+    min-width: 250px;
+  }
+
+  .advantages__card h2 {
+    margin-bottom: 10px;
+  }
+
+  .advantages__card-period {
+    width: 30px;
+    height: 36px;
+    top: 24px;
+  }
+
+  .advantages__card-suppliers {
+    width: 32px;
+    height: 32px;
+    top: 23px;
+  }
+
+  .advantages__card-privacy {
+    width: 30px;
+    height: 26px;
+    top: 26px;
+  }
+
+  .advantages__card-personalization {
+    width: 32px;
+    height: 32px;
+    top: 23px;
+
+  }
+}
+@media (max-width: 767px) {
+  .advantages {
+    padding-top: 40px;
+  }
+
+  .advantages__card {
+    flex-basis: calc(100%/1);
+    padding-top: 55px;
+    padding-right: 18px;
+    padding-bottom: 29px;
+    margin-bottom: 21px;
+    border-left: 3px solid #00b2ff;
+    min-width: 290px;
+    max-width: 100%;
+  }
+
+  .advantages__list {
+    justify-content: center;
+  }
+
+  .advantages__card h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .advantages__card:nth-child(2) {
+    padding-top: 54px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+  }
+
+  .advantages__card:nth-child(3) h2 {
+    max-width: 230px;
+  }
+}
