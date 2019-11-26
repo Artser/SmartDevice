@@ -1,0 +1,129 @@
+.about-company {
+  display: flex;
+  margin-top: 75px;
+}
+
+.about-company .wrapper {
+  display: flex;
+}
+
+.about-company__text h2 {
+  font-family: $roboto-con;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 51px;
+  margin: 0;
+  color: #666;
+}
+.about-company__text{
+  margin-left: -9px;
+}
+.about-company__text p {
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 21px;
+  color: $black;
+}
+.about-company__img {
+  margin-left: -29px;
+}
+.about-company__link p {
+  font-family: $roboto-con;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  width: 180px;
+  min-height: 45px;
+  border: 1px solid $blue;
+  border-radius: 5px;
+  color: $blue;
+  text-transform: uppercase;
+  padding: 13px;
+  margin-top: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.10em;
+}
+
+.about-company__link {
+  display: flex;
+  max-width: 178px;
+  margin-top: 39px;
+}
+
+.about-company__link p:hover {
+  background-color: $blue;
+  color: $white;
+  //transition: all 0.3s ease;
+}
+
+@media (max-width: 1023px) {
+  .about-company {
+    margin-top: 32px;
+  }
+
+  .about-company__img img {
+    width: 214px;
+    height: 360px;
+  }
+
+  .about-company__text h2 {
+    font-size: 32px;
+    margin-left: 2px;
+  }
+
+  .about-company__text {
+    margin-left: -1px;
+  }
+
+  .about-company__link {
+    max-width: 182px;
+    margin-top: 0;
+  }
+
+  .about-company__text p span {
+    display: none;
+  }
+
+  .about-company__text p {
+    margin-top: 20px;
+  }
+
+  .about-company__link p {
+    margin-top: 43px;
+    margin-left: 3px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-company {
+    margin-top: 27px;
+  }
+
+  .about-company__img {
+    display: none;
+  }
+
+  .about-company__text {
+    margin-left: 0;
+  }
+
+  .about-company__text p {
+    margin-top: 16px;
+  }
+
+  .about-company__text p:nth-child(3) {
+    margin-top: 40px;
+  }
+
+  .about-company__text a p {
+    margin-top: 28px;
+  }
+}

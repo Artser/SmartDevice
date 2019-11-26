@@ -74,7 +74,7 @@ ul {
 @mixin title-h2($margin-bottom: 0) {
   margin-top: 0;
   margin-bottom: $margin-bottom;
-  font-family: $font-alt;
+  font-family: $roboto-con;
   font-weight: 400;
   font-size: 28px;
   line-height: 140%;
@@ -92,7 +92,7 @@ ul {
   width: 100%;
   padding: 11px 15px 15px 16px;
   background-color: rgba(255, 255, 255, 0.1);
-  font-family: $font;
+  font-family: $pt-mono;
   font-size: 16px;
   line-height: 22px;
   color: white;

@@ -14,7 +14,6 @@
   height: 36px;
   top: 35px;
   fill: $blue;
-  //transition: all 0.3s ease;
 }
 
 .advantages__card-suppliers {
@@ -23,16 +22,14 @@
   height: 35px;
   top: 35px;
   fill: $blue;
-  //transition: all 0.3s ease;
 }
 
 .advantages__card-privacy {
   position: absolute;
   width: 36px;
   height: 31px;
-  top: 35px;
+  top: 42px;
   fill: $blue;
-  //transition: all 0.3s ease;
 }
 
 .advantages__card-personalization {
@@ -41,7 +38,6 @@
   height: 35px;
   top: 35px;
   fill: $blue;
-  //transition: all 0.3s ease;
 }
 
 .advantages__card h2 {
@@ -52,7 +48,6 @@
   line-height: 34px;
   color: $blue;
   position: relative;
-  //transition: all 0.3s ease;
 }
 
 .advantages__card {
@@ -68,7 +63,6 @@
   position: relative;
   max-width: 49%;
   background-color: $white;
-  //transition: all 0.3s ease;
 
   &:hover {
     background-color: $blue;
@@ -76,18 +70,14 @@
     color: $white;
     border: 1px solid $blue;
     border-left: 3px solid $blue;
-    //transition: all 0.3s ease;
     & h2 {
-      //transition: all 0.3s ease;
       color: $white;
     }
     & p {
-      //transition: all 0.3s ease;
       color: $white;
     }
     & svg {
       fill: $white;
-      //transition: all 0.3s ease;
     }
   }
 }
@@ -99,7 +89,6 @@
   font-size: 16px;
   line-height: 21px;
   color: #666;
-  //transition: all 0.3s ease;
 }
 
 @media (max-width: 1024px) {}
@@ -157,7 +146,7 @@
     flex-basis: calc(100%/1);
     padding-top: 55px;
     padding-right: 18px;
-    padding-bottom: 29px;
+    padding-bottom: 67px;
     margin-bottom: 21px;
     border-left: 3px solid #00b2ff;
     min-width: 290px;
