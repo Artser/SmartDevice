@@ -163,23 +163,23 @@
   content: "";
   position: absolute;
   top: 0;
-  left: -40px;
-  height: 25px;
-  width: 25px;
+  left: -34px;
+  height: 19px;
+  width: 19px;
   background-color: $blue;
   border: 1px solid white;
 }
 
 .form-question__input-consent:checked + .form-question__consent::after {
   content: "";
-  background-image: url(../img/check.svg);
+  background-image: url(../img/Vector.svg);
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
   width: 20px;
   height: 20px;
-  left: -37px;
-  top: 3px;
+  left: -35px;
+    top: 1px;
 }
 //@media (max-width: 1024px) {}
 

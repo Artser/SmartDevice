@@ -1,0 +1,219 @@
+.service {
+  background-color: #1B2D37;
+  width: 100%;
+  margin-top: 91px;
+}
+
+
+.service .wrapper h2 {
+  font-family: $roboto-con;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 51px;
+  color: $white;
+  margin: 0;
+  padding: 87px 0 54px 0;
+}
+
+.service__element a h3 {
+  font-family: $roboto-con;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: $white;
+  display: flex;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  padding: 45px 155px 65px 43px;
+}
+
+.service__list {
+  display: flex;
+  padding-bottom: 75px;
+  flex-wrap: wrap;
+}
+
+.service__element:hover {
+  border: 1px solid $blue;
+  overflow: hidden;
+}
+.service__element {
+  display: block;
+  position: relative;
+  border: 1px solid transparent;
+  width: 100%;
+  min-height: 620px;
+  max-width: 370px;
+  display: flex;
+  margin-bottom: 50px;
+  width: calc(33.333% - 20px);
+  overflow: hidden;
+}
+
+.service__element:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.service__link {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.service__link img {
+  width: auto;
+  height: 100%;
+}
+
+.service__container {
+  height: 100%;
+  position: absolute
+}
+
+.service__pointer span {
+  position: relative;
+  width: 63px;
+  height: 63px;
+  background-color: $blue;
+}
+
+.service__pointer {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  width: 63px;
+  right: 0;
+  bottom: 0;
+}
+
+.service__pointer::before {
+  content: "";
+  width: 63px;
+  height: 63px;
+  background-color: #00b2ff;
+}
+
+
+.service__pointer::after {
+  position: absolute;
+  content: "";
+  bottom: 30px;
+  left: 31px;
+  width: 5px;
+  height: 5px;
+  border: solid #fff;
+  border-width: 0 1px 1px 0;
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 1023px) {
+  .service {
+    margin-top: 75px;
+    min-width: 500px;
+  }
+
+  .service .wrapper h2 {
+    font-size: 32px;
+    line-height: 45px;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+  }
+
+  .service__element {
+    max-width: 100%;
+    margin-bottom: 46px;
+    flex-basis: calc(100%/1);
+    min-height: 256px;
+    margin-right: 0;
+  }
+
+  .service__list {
+    padding-bottom: 30px;
+  }
+
+  .service__element a {
+    width: 100%;
+  }
+
+  .service__element a h3 {
+    padding-top: 37px;
+    padding-right: 70px;
+    padding-bottom: 60px;
+    max-width: 285px;
+    margin-right: auto;
+  }
+
+  .service__element:not(:nth-child(3n)) {
+    margin-right: 0;
+  }
+
+  .service__link img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
+
+  .service__pointer {
+    margin-top: 34px;
+  }
+
+  .service__container {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .service {
+    min-width: 320px;
+    margin-top: 65px;
+  }
+
+  .service .wrapper {
+    padding: 0 16px;
+  }
+
+  .service .wrapper h2 {
+    font-size: 28px;
+    line-height: 39px;
+    padding-top: 50px;
+    padding-right: 0;
+    padding-bottom: 40px;
+  }
+
+  .service__list {
+    justify-content: center;
+    padding-bottom: 36px;
+  }
+
+  .service__element {
+    max-width: 100%;
+    min-height: 256px;
+    margin-bottom: 30px;
+  }
+
+  .service__element a h3 {
+    padding-top: 21px;
+    padding-right: 80px;
+    padding-left: 34px;
+  }
+
+  .service__pointer::after {
+    bottom: 27px;
+    left: 26px;
+    width: 8px;
+    height: 8px;
+    border-width: 0 2px 2px 0;
+  }
+
+  .service__pointer {
+    margin-top: 50px;
+  }
+}

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>SmartDevice</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.min.css">
 </head>
 
 <body>
@@ -22,13 +22,13 @@
       <div class="page-header__contacts">
         <div class="page-header__element">
           <a class="page-header__mail" href="mailto:info@sd.ru">
-            <img class="page-header__img" src="img/envelope.png" alt="картинка коверт" width="18" height="15">
+            <img class="page-header__img" src="img/envelope.svg" alt="картинка коверт" width="18" height="15">
             <p>info@sd.ru</p>
           </a>
         </div>
         <div class="page-header__element">
           <a class="page-header__tel" href="tel:+7495005252">
-            <img class="page-header__svg" src="img/phone-call.png" alt="картинка телефон" width="18" height="18">
+            <img class="page-header__svg" src="img/phone-call.svg" alt="картинка телефон" width="18" height="18">
 
             <p>+7 (495) 000 52 52</p>
           </a>
@@ -59,7 +59,7 @@
       </section>
     </div>
   </header>
-  <main class="container" "="">
+  <main class="container">
     <section class=" advantages">
     <div class="wrapper">
       <ul class="advantages__list">
@@ -147,9 +147,9 @@
             <a class="service__link" href="#">
               <div class="service__container">
                 <picture>
-                  <source media="(max-width: 767px)" srcset="img/goods-mob-1.jpg 1x">
-                  <source media="(max-width: 1023px)" srcset="img/goods-tablet-1.jpg 1x">
-                  <img src="img/goods-desk-1.jpg" alt="Изображение печатной платы (производство)">
+                  <source media="(max-width: 767px)" srcset="img/mobile1a.png 1x, img/mobile1@2x.png 2x">
+                  <source media="(max-width: 1023px)" srcset="img/tablet1.png 1x, img/tablet1@2x.png 2x">
+                  <img src="img/left.png" alt="Изображение печатной платы (производство)">
                 </picture>
               </div>
               <h3>Производство печатных плат</h3>
@@ -160,9 +160,9 @@
             <a class="service__link" href="#">
               <div class="service__container">
                 <picture>
-                  <source media="(max-width: 767px)" srcset="img/goods-mob-2.jpg 1x">
-                  <source media="(max-width: 1023px)" srcset="img/goods-tablet-2.jpg 1x">
-                  <img src="img/goods-desk-2.jpg" alt="изображение монтаж печатных плат">
+                  <source media="(max-width: 767px)" srcset="img/mobile2.png 1x, img/mobile2@2x.png 2x">
+                  <source media="(max-width: 1023px)" srcset="img/tablet2.png 1x, img/tablet2@2x.png 2x">
+                  <img src="img/centre.png" alt="изображение монтаж печатных плат">
                 </picture>
               </div>
               <h3>Монтаж печатных плат</h3>
@@ -173,9 +173,9 @@
             <a class="service__link" href="#">
               <div class="service__container">
                 <picture>
-                  <source media="(max-width: 767px)" srcset="img/goods-mob-3.jpg 1x">
-                  <source media="(max-width: 1023px)" srcset="img/goods-tablet-3.jpg 1x">
-                  <img src="img/goods-desk-3.jpg" alt="изображение комплектующие для светотехники">
+                  <source media="(max-width: 767px)" srcset="img/mobile3.png 1x, img/mobile3@2x.png 2x">
+                  <source media="(max-width: 1023px)" srcset="img/tablet3.png 1x, img/tablet3@2x.png 2x">
+                  <img src="img/right.png" alt="изображение комплектующие для светотехники">
                 </picture>
               </div>
               <h3>Комплектующие для светотехники</h3>
@@ -207,7 +207,7 @@
           </div>
           <label class="form-question__textarea">
             <span class="visually-hidden">Задать вопрос</span>
-            <textarea class="form-question__text" type="text" id="question" placeholder="Ваш вопрос" required=""></textarea>
+            <textarea class="form-question__text" id="question" placeholder="Ваш вопрос" required=""></textarea>
           </label>
           <div class="form-question__btn">
             <button type="submit">Задать вопрос</button>
