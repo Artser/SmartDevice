@@ -123,15 +123,29 @@
   line-height: 22px;
 }
 
-.form-question__inputs {
-  display: flex;
-  justify-content: space-between;
+.form-question__inputs .form-question__input input:hover {
+  border-color: #ffffff;
+}
+
+.form-question__inputs input:hover {
+  border-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.form-question__textarea textarea:hover {
+  border-color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 .form-question__inputs input {
   width: 270px;
   min-height: 50px;
   padding-left: 21px;
+}
+
+.form-question__inputs {
+  display: flex;
+  justify-content: space-between;
 }
 
 .form-question__text {
@@ -277,6 +291,8 @@
 
   .form-question__text {
     width: 100%;
+    margin-top: 0;
+    min-height: 108px;
   }
 
   .form-question__btn {

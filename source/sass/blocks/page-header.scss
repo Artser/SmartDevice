@@ -189,6 +189,11 @@
     margin-right: 0;
   }
 
+  .page-header__img {
+    width: 25px;
+    height: 25px;
+  }
+
   .page-header__element a p,
   .page-header__call {
     display: none;
@@ -212,6 +217,10 @@
     padding-left: 17px;
     padding-top: 17px;
     padding-right: 14px;
+  }
+
+  .page-header__logo {
+    width: 66%;
   }
 
   .page-header__logo a img {
