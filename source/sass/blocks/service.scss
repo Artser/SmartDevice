@@ -1,9 +1,8 @@
 .service {
-  background-color: #1B2D37;
+  background-color: #1b2d37;
   width: 100%;
   margin-top: 91px;
 }
-
 
 .service .wrapper h2 {
   font-family: $roboto-con;
@@ -40,11 +39,10 @@
   border: 1px solid $blue;
   overflow: hidden;
 }
+
 .service__element {
-  display: block;
   position: relative;
   border: 1px solid transparent;
-  width: 100%;
   min-height: 620px;
   max-width: 370px;
   display: flex;
@@ -70,7 +68,7 @@
 
 .service__container {
   height: 100%;
-  position: absolute
+  position: absolute;
 }
 
 .service__pointer span {
@@ -96,7 +94,6 @@
   background-color: #00b2ff;
 }
 
-
 .service__pointer::after {
   position: absolute;
   content: "";
@@ -104,12 +101,11 @@
   left: 31px;
   width: 5px;
   height: 5px;
-  border: solid #fff;
+  border: solid #ffffff;
   border-width: 0 1px 1px 0;
   transform: rotate(-45deg);
 }
 
-@media (max-width: 1024px) {}
 
 @media (max-width: 1023px) {
   .service {
@@ -129,7 +125,7 @@
   .service__element {
     max-width: 100%;
     margin-bottom: 46px;
-    flex-basis: calc(100%/1);
+    flex-basis: calc(100% / 1);
     min-height: 256px;
     margin-right: 0;
   }

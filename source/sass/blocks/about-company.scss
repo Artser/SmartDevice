@@ -14,13 +14,14 @@
   font-size: 36px;
   line-height: 51px;
   margin: 0;
-  color: #666;
+  color: #666666;
 }
-.about-company__text{
+
+.about-company__text {
   margin-left: -9px;
 }
-.about-company__text p {
 
+.about-company__text p {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -28,9 +29,11 @@
   margin-top: 21px;
   color: $black;
 }
+
 .about-company__img {
   margin-left: -29px;
 }
+
 .about-company__link p {
   font-family: $roboto-con;
   font-style: normal;
@@ -44,12 +47,12 @@
   color: $blue;
   text-transform: uppercase;
   padding: 13px;
-  margin-top: 0;
+  margin-top: 0 px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  letter-spacing: 0.10em;
+  letter-spacing: 0.1em;
 }
 
 .about-company__link {
@@ -61,7 +64,6 @@
 .about-company__link p:hover {
   background-color: $blue;
   color: $white;
-  //transition: all 0.3s ease;
 }
 
 @media (max-width: 1023px) {

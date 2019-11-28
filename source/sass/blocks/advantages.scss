@@ -70,12 +70,15 @@
     color: $white;
     border: 1px solid $blue;
     border-left: 3px solid $blue;
+
     & h2 {
       color: $white;
     }
+
     & p {
       color: $white;
     }
+
     & svg {
       fill: $white;
     }
@@ -88,10 +91,10 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 21px;
-  color: #666;
+  color: #666666;
 }
 
-@media (max-width: 1024px) {}
+//@media (max-width: 1024px) {}
 @media (max-width: 1023px) {
   .advantages {
     padding-top: 55px;
@@ -134,16 +137,16 @@
     width: 32px;
     height: 32px;
     top: 23px;
-
   }
 }
+
 @media (max-width: 767px) {
   .advantages {
     padding-top: 40px;
   }
 
   .advantages__card {
-    flex-basis: calc(100%/1);
+    flex-basis: calc(100% / 1);
     padding-top: 55px;
     padding-right: 18px;
     padding-bottom: 67px;

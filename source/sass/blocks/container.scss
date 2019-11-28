@@ -1,12 +1,12 @@
 .container {
   background-position: center -428px;
   background-repeat: no-repeat;
-  background-image: url(../img/background.png);
+  background-image: url("../img/background.png");
 }
 
 @media (max-width: 1023px) {
   .container {
-    background-image: url(../img/background-tablet.png);
+    background-image: url("../img/background-tablet.png");
     background-position: center -428px;
   }
 }

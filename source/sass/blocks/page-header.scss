@@ -15,17 +15,14 @@
   padding-top: 32px;
   justify-content: space-between;
   position: relative;
- //z-index: 5;
 }
 
 .page-header__logo {
   display: inherit;
-
 }
 
 .page-header__logo:hover {
   opacity: 0.4;
-
 }
 
 .page-header__logo a {
@@ -80,7 +77,6 @@
 .page-header__mail:hover,
 .page-header__tel:hover {
   opacity: 0.7;
-
 }
 
 .page-header__element {
