@@ -46,7 +46,7 @@
         <p><span class="big-presentasion__white-line"></span>производство и монтаж, поставка комплектующих, блоков и
           модулей
         </p>
-        <button type="button" class="big-presentasion__button">
+        <button type="button" class="big-presentasion__button" aria-label="задать вопрос">
           <span>Получить бесплатную консультацию</span>
           <span>Бесплатная консультация</span>
         </button>
@@ -223,21 +223,21 @@
           <div class="form-question__inputs">
             <label class="form-question__input">
               <span class="visually-hidden">Имя</span>
-              <input type="text" placeholder="Имя" id="feedback-name" required="">
+              <input type="text" placeholder="Имя" name="feedback-name" id="feedback-name" required="">
             </label>
             <label class="form-question__input">
               <span class="visually-hidden">Телефон</span>
-              <input type="text" placeholder="Телефон" id="feedback-phone" required="">
+              <input type="tel" placeholder="Телефон" name="feedback-phone" id="feedback-phone" required="">
             </label>
           </div>
           <label class="form-question__textarea">
             <span class="visually-hidden">Задать вопрос</span>
-            <textarea class="form-question__text"  id="question" placeholder="Ваш вопрос"
+            <textarea class="form-question__text"  name="question" id="question" placeholder="Ваш вопрос"
               required=""></textarea>
           </label>
           <div class="form-question__btn">
             <button type="submit">Задать вопрос</button>
-            <input class="form-question__input-consent" type="checkbox" id="consent" name="consent" required="">
+            <input class="form-question__input-consent"  type="checkbox" id="consent" name="consent" required="">
             <label class="form-question__consent" for="consent">Я согласен на обработку персональных данных
             </label>
           </div>
@@ -259,7 +259,7 @@
           <div class="footer__span">
             <span>1999-2018 SD Service Devices</span>
           </div>
-          <ul>
+          <ul class="footer__icon">
             <li><a href="#">
                 <span class="visually-hidden">facebook</span>
                 <svg width="27" height="27">
@@ -340,7 +340,7 @@
             отправить
           </button>
           <div class="form__data-processing form__data-processing--modal">
-            <input id="backcall-personal-data-processing" type="checkbox" checked />
+            <input id="backcall-personal-data-processing" name="yes" type="checkbox" checked />
             <label class="form__data-processing-text form__data-processing-text--modal"
               for="backcall-personal-data-processing">Я согласен на обработку персональных данных</label>
           </div>

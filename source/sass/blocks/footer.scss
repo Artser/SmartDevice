@@ -3,6 +3,18 @@
   background-color: #fafafa;
 }
 
+.footer__hidden {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.footer__icon {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
 .footer__wrapper {
   max-width: 1452px;
   margin: 0 auto;
@@ -124,6 +136,9 @@
 .footer__nav ul {
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .footer__nav ul li {
