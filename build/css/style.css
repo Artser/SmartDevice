@@ -227,7 +227,7 @@ a {
   .page-header__element {
     min-width: 0;
     margin-left: 0; }
-  .page-header__element:nth-child(1) {
+  .page-header__mail {
     padding-right: 32px; }
   .page-header__contacts {
     padding-bottom: 8px; }
@@ -260,9 +260,11 @@ a {
   .page-header__logo a img {
     width: 38px;
     height: 38px; }
+  .page-header__img {
+    margin-right: 0; }
   .page-header__logo a p {
     display: none; }
-  .page-header__element:nth-child(1) {
+  .page-header__mail {
     padding-right: 20px; } }
 
 .about-company {
@@ -366,11 +368,10 @@ a {
   .about-company__text {
     margin-left: 0; }
   .about-company__text p {
-    margin-top: 16px; }
-  .about-company__text p:nth-child(3) {
-    margin-top: 40px; }
+    margin-top: 16px;
+    margin-bottom: 40px; }
   .about-company__text a p {
-    margin-top: 12px; }
+    margin-top: -11px; }
   .about-company__text h2 {
     font-size: 28px; } }
 
@@ -631,7 +632,7 @@ a {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
-.big-presentasion__button span:nth-child(2) {
+.big-presentasion__button-mobile {
   display: none; }
 
 .big-presentasion img {
@@ -714,9 +715,9 @@ a {
     max-height: 55px;
     margin-left: 0;
     max-width: 290px; }
-  .big-presentasion__button span:nth-child(1) {
+  .big-presentasion__button-desk {
     display: none; }
-  .big-presentasion__button span:nth-child(2) {
+  .big-presentasion__button-mobile {
     display: block; }
   .big-presentasion__button span::before {
     display: none; }
@@ -1244,12 +1245,6 @@ a {
           justify-content: space-between;
   padding-bottom: 25px;
   padding-top: 15px; }
-
-.footer__copyright-text p:nth-child(4) {
-  padding-left: 345px; }
-
-.footer__copyright-text p:nth-child(2) {
-  padding-right: 69px; }
 
 .footer__copyright-text p {
   font-family: "PT Mono", "Arial", sans-serif;
@@ -1786,7 +1781,7 @@ a {
 @media (max-width: 767px) {
   .service {
     min-width: 320px;
-    margin-top: 65px; }
+    margin-top: 24px; }
   .service .wrapper {
     padding: 0 16px; }
   .service .wrapper h2 {

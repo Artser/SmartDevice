@@ -33,9 +33,6 @@
   max-width: 680px;
 }
 
-// .big-presentasion p:nth-child(2) {
-//   position: relative;
-// }
 
 .big-presentasion__white-line {
   content: "";
@@ -93,7 +90,7 @@
   transition: all 0.3s ease;
 }
 
-.big-presentasion__button span:nth-child(2) {
+.big-presentasion__button-mobile {
   display: none;
 }
 
@@ -208,11 +205,11 @@
     max-width: 290px;
   }
 
-  .big-presentasion__button span:nth-child(1) {
+  .big-presentasion__button-desk {
     display: none;
   }
 
-  .big-presentasion__button span:nth-child(2) {
+  .big-presentasion__button-mobile {
     display: block;
   }
 
