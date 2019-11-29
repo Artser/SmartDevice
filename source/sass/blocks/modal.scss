@@ -249,7 +249,6 @@
     outline: none;
     color: white;
     border-color: white;
-    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
     cursor: pointer;
   }
 
@@ -293,7 +292,6 @@
       content: "";
       width: 7px;
       height: 5px;
-      background-color: transparent;
       border-left: 1px solid white;
       border-bottom: 1px solid white;
       transform: rotate(320deg);
@@ -345,7 +343,6 @@
     content: "";
     width: 16px;
     height: 16px;
-    background-color: transparent;
     border: 1px solid white;
   }
 
