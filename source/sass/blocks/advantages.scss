@@ -108,14 +108,40 @@
     padding-right: 18px;
     padding-bottom: 29px;
     padding-left: 25px;
-    margin: 0 0 28px;
+    margin: 0 0 30px;
     border-left: 2px solid #00b2ff;
     min-height: auto;
     min-width: 250px;
   }
 
+  .advantages__card1 {
+    padding-bottom: 29px;
+    padding-right: 26px;
+  }
+
+  .advantages__card2 {
+    padding-bottom: 7px;
+    padding-right: 28px;
+  }
+
   .advantages__card h2 {
     margin-bottom: 10px;
+  }
+
+  .advantages__card p {
+    margin-top: 10px;
+  }
+
+  .advantages__card3 p {
+    margin-top: 15px;
+  }
+
+  .advantages__card3 {
+    margin-bottom: 31px;
+  }
+
+  .advantages__card4 p {
+    margin-bottom: 9px;
   }
 
   .advantages__card-period {
@@ -164,7 +190,8 @@
   }
 
   .advantages__card2 {
-    padding-bottom: 7px;
+    padding-bottom: 29px;
+    padding-right: 12px;
   }
 
   .advantages__card p {

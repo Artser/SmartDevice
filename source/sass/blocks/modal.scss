@@ -197,12 +197,12 @@
   }
 }
 
-.form__input {
+.form__container input {
   @include input();
+}
 
-  &--modal {
-    padding: 12px 24px 16px 24px;
-  }
+.form__container--modal input {
+  padding: 12px 24px 16px 24px;
 }
 
 .form__question {

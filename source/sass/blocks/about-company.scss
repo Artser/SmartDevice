@@ -68,12 +68,18 @@
 
 @media (max-width: 1023px) {
   .about-company {
-    margin-top: 32px;
+    margin-top: 24px;
   }
 
   .about-company__img img {
-    width: 214px;
-    height: 360px;
+    width: 177px;
+    height: 389px;
+  }
+
+  .about-company__img {
+    margin-left: -25px;
+    position: absolute;
+    bottom: -23px;
   }
 
   .about-company__text h2 {
@@ -82,7 +88,8 @@
   }
 
   .about-company__text {
-    margin-left: -1px;
+    margin-left: 187px;
+    position: relative;
   }
 
   .about-company__link {
@@ -99,7 +106,7 @@
   }
 
   .about-company__link p {
-    margin-top: 43px;
+    margin-top: 27px;
     margin-left: 3px;
   }
 }
@@ -121,7 +128,6 @@
     margin-top: 16px;
     margin-bottom: 40px;
   }
-
 
   .about-company__text a p {
     margin-top: -11px;

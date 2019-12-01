@@ -51,8 +51,11 @@
           <span class="big-presentasion__button-mobile">Бесплатная консультация</span>
         </button>
         <picture>
+          <!-- 1х: 631px; 2x: 1262px -->
           <source type="image/webp" media="(max-width: 767px)" srcset="img/mobgroup@1x.webp 1x, img/mobgroup@2x.webp 2x">
+          <!-- 1х: 535px; 2x: 1070px -->
           <source type="image/webp" media="(max-width: 1023px)" srcset="img/tabletgroup@1x.webp 1x, img/tabletgroup_2x.webp 2x">
+          <!-- 1х: 705px; 2x: 1410px -->
           <img src="img/boards_1x-desktop.webp" srcset="img/boards@2x-desktop.webp 2x" alt="Изображение печатной платы" width="710" height="655">
         </picture>
         <a class="page-header__scroll-link" href="#">Скролл вниз</a>
@@ -121,7 +124,9 @@
       <div class="wrapper">
         <div class="about-company__img">
           <picture>
+            <!-- 1х: 631px; 2x: 1262px -->
             <source type="image/webp" media="(max-width: 1023px)" srcset="img/tablet2005.webp 1x, img/tablet2005.webp 2x">
+            <!-- 1х: 631px; 2x: 1262px -->
             <img src="img/2005.webp" srcset="img/2005@2x.webp 2x" alt="2005" width="220" height="325">
           </picture>
         </div>
@@ -148,9 +153,12 @@
             <a class="service__link" href="#">
               <div class="service__container">
                 <picture>
+                  <!-- 1х: 319px; 2x: 580px -->
                   <source type="image/webp" media="(max-width: 767px)" srcset="img/mobile1a.webp 1x, img/mobile1@2x.webp 2x">
+                  <!-- 1х: 715px; 2x: 1430px -->
                   <source type="image/webp" media="(max-width: 1023px)" srcset="img/tablet1.webp 1x, img/tablet1@2x.webp 2x">
-                  <img src="img/left.png" alt="Изображение печатной платы (производство)">
+                  <!-- 1х: 370px; 2x: 805px -->
+                  <img src="img/left.webp" alt="Изображение печатной платы (производство)">
                 </picture>
               </div>
               <h3>Производство печатных плат</h3>
@@ -161,9 +169,12 @@
             <a class="service__link" href="#">
               <div class="service__container">
                 <picture>
+                  <!-- 1х: 291px; 2x: 580px -->
                   <source type="image/webp" media="(max-width: 767px)" srcset="img/mobile2.webp 1x, img/mobile2@2x.webp 2x">
+                  <!-- 1х: 720px; 2x: 1440px -->
                   <source type="image/webp" media="(max-width: 1023px)" srcset="img/tablet2.webp 1x, img/tablet2@2x.webp 2x">
-                  <img src="img/centre.png" alt="изображение монтаж печатных плат">
+                  <!-- 1х: 631px; 2x: 1262px -->
+                  <img src="img/centre.webp" alt="изображение монтаж печатных плат">
                 </picture>
               </div>
               <h3>Монтаж печатных плат</h3>
@@ -174,9 +185,12 @@
             <a class="service__link" href="#">
               <div class="service__container">
                 <picture>
+                  <!-- 1х: 291px; 2x: 580px -->
                   <source type="image/webp" media="(max-width: 767px)" srcset="img/mobile3.webp 1x, img/mobile3@2x.webp 2x">
+                  <!-- 1х: 720px; 2x: 1440px -->
                   <source type="image/webp" media="(max-width: 1023px)" srcset="img/tablet3.webp 1x, img/tablet3@2x.webp 2x">
-                  <img src="img/right.png" alt="изображение комплектующие для светотехники">
+                  <!-- 1х: 631px; 2x: 1262px -->
+                  <img src="img/right.webp" alt="изображение комплектующие для светотехники">
                 </picture>
               </div>
               <h3>Комплектующие для светотехники</h3>
@@ -212,7 +226,7 @@
           </label>
           <div class="form-question__btn">
             <button type="submit">Задать вопрос</button>
-            <input class="form-question__input-consent" type="checkbox" id="consent" name="consent" required="">
+            <input type="checkbox" id="consent" name="consent" required="">
             <label class="form-question__consent" for="consent">Я согласен на обработку персональных данных
             </label>
           </div>
@@ -265,9 +279,9 @@
               <li><a href="#">Производство печатных плат</a></li>
               <li><a href="#">Монтаж печатных плат</a></li>
               <li><a href="#">Комплектующие</a></li>
-            <li><a href="#">Доставка</a></li>
+              <li><a href="#">Доставка</a></li>
 
-            <li><a href="#">Контакты</a></li>
+              <li><a href="#">Контакты</a></li>
 
             </ul>
           </div>
@@ -285,10 +299,11 @@
       <div class="footer__wrap-copyright">
         <div class="footer__copyright">
           <div class="footer__copyright-text">
-            <p><span>Все pава защищены</span></p>
-            <p><span>1999-2018 SD Service Devices</span></p>
-            <p><a class="footer__confidentiality" href="#">Условия конфиденциальности</a></p>
-            <p><a class="footer__developed" href="#">Developed by wow studio</a></p>
+            <p><span class="footer__copyright-rights">Все пpава защищены</span></p>
+            <p><span class="footer__copyright-devices">1999-2018 SD Service Devices</span></p>
+            <p class="footer__copyright-p3"><a class="footer__confidentiality" href="#">Условия конфиденциальности</a>
+            </p>
+            <p class="footer__copyright-wow"><a class="footer__developed" href="#">Developed by wow studio</a></p>
           </div>
         </div>
       </div>
@@ -307,11 +322,11 @@
           <div class="form__container form__container--modal">
             <label class="form__label form__label--modal">
               <span class="visually-hidden">Имя</span>
-              <input class="form__input form__input--modal js-text-only" id="js-modal-name" type="text" name="name" minlength="3" maxlength="256" placeholder="Имя" required="">
+              <input id="js-modal-name" type="text" name="name" minlength="3" maxlength="256" placeholder="Имя" required="">
             </label>
             <label class="form__label form__label--modal">
               <span class="visually-hidden">Телефон</span>
-              <input class="form__input form__input--modal js-tel-only" type="tel" name="tel" placeholder="Телефон" required="">
+              <input type="tel" name="tel" placeholder="Телефон" required="">
             </label>
           </div>
           <label class="form__label form__label--modal-question">
@@ -329,7 +344,6 @@
       </div>
     </div>
   </div>
-  <script src="js/lib.js"></script>
   <script src="js/main.js"></script>
 </body>
 

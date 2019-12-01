@@ -18,7 +18,7 @@
   width: 570px;
   min-height: 453px;
   margin-left: auto;
-  margin-bottom: 115px;
+  margin-bottom: 109px;
   position: relative;
 }
 
@@ -44,7 +44,7 @@
   font-size: 16px;
   line-height: 22px;
   color: $white;
-  margin-bottom: 48px;
+  margin-bottom: 52px;
   margin-top: 10px;
 }
 
@@ -185,7 +185,7 @@
   border: 1px solid white;
 }
 
-.form-question__input-consent:checked + .form-question__consent::after {
+.form-question__btn input[type="checkbox"]:checked + label::after {
   content: "";
   background-image: url("../img/Vector.svg");
   background-position: center;
@@ -221,6 +221,10 @@
     line-height: 45px;
   }
 
+  .form-question__btn {
+    margin-top: 44px;
+  }
+
   .form-question__wrap form textarea {
     width: 100%;
     min-height: 170px;
@@ -229,6 +233,11 @@
 
   .form-question__inputs input {
     width: 280px;
+  }
+
+  .form-question__text {
+    width: 596px;
+    min-height: 160px;
   }
 
   .form-question__btn button {
@@ -247,6 +256,11 @@
     width: 5px;
     height: 8px;
   }
+
+  .form-question__consent::before {
+    top: -2px;
+    left: -39px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -256,13 +270,14 @@
 
   .form-question__wrap {
     width: 100%;
-    margin: 0 auto 43px;
+    margin: 0 auto 41px;
   }
 
   .form-question__wrap h3 {
     font-size: 28px;
     line-height: 39px;
     margin-top: 30px;
+    margin-bottom: 13px;
   }
 
   .form-question__wrap p {
@@ -298,12 +313,12 @@
 
   .form-question__btn {
     display: block;
-    margin-top: 27px;
+    margin-top: 30px;
   }
 
   .form-question__btn label {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 33px;
     padding-left: 35px;
   }
 
@@ -331,7 +346,7 @@
     width: 18px;
   }
 
-  .form-question__input-consent:checked + .form-question__consent::after {
+  .form-question__btn input[type="checkbox"]:checked + label::after {
     left: 3px;
     width: 11px;
     height: 11px;
