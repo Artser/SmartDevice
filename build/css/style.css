@@ -959,7 +959,7 @@ a {
 .form-question__consent::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: -6px;
   left: -34px;
   height: 19px;
   width: 19px;
