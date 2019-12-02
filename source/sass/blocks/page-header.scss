@@ -74,7 +74,8 @@
   margin-right: 25px;
 }
 
-.page-header__element a {
+.page-header__mail,
+.page-header__tel {
   display: flex;
   font-style: normal;
   font-weight: normal;
@@ -102,7 +103,13 @@
   opacity: 1;
   background-color: $white;
   border-radius: 8px;
-  max-width: 180px;
+  max-width: 100%;
+}
+
+.page-header__call:focus {
+  background: $white;
+  color: $blue;
+  opacity: 0.3;
 }
 
 .page-header__contacts ul img {
@@ -111,26 +118,6 @@
   padding: 0;
 
   list-style-type: none;
-}
-
-.page-header__call {
-  font-family: $roboto-con;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  border: 1px solid $white;
-  width: 181px;
-  max-width: 180px;
-  min-height: 45px;
-  padding: 5px 11px 8px 11px;
-  border-radius: 8px;
-  letter-spacing: 1px;
-  background: transparent;
-  outline: none;
-  color: $white;
-  cursor: pointer;
 }
 
 .page-header__scroll-link {
@@ -151,6 +138,26 @@
 .page-header__scroll-link:hover {
   color: $blue;
   opacity: 1;
+}
+
+.page-header__call {
+  font-family: $roboto-con;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  border: 1px solid $white;
+  width: 181px;
+  max-width: 180px;
+  min-height: 45px;
+  padding: 14px 24px 8px;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  background: transparent;
+  outline: none;
+  color: $white;
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {

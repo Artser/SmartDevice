@@ -135,7 +135,8 @@ a {
 .page-header__img {
   margin-right: 25px; }
 
-.page-header__element a {
+.page-header__mail,
+.page-header__tel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -167,32 +168,18 @@ a {
   opacity: 1;
   background-color: #ffffff;
   border-radius: 8px;
-  max-width: 180px; }
+  max-width: 100%; }
+
+.page-header__call:focus {
+  background: #ffffff;
+  color: #00b2ff;
+  opacity: 0.3; }
 
 .page-header__contacts ul img {
   margin: 0 px;
   margin-right: 16px;
   padding: 0;
   list-style-type: none; }
-
-.page-header__call {
-  font-family: "Roboto Condensed", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  border: 1px solid #ffffff;
-  width: 181px;
-  max-width: 180px;
-  min-height: 45px;
-  padding: 5px 11px 8px 11px;
-  border-radius: 8px;
-  letter-spacing: 1px;
-  background: transparent;
-  outline: none;
-  color: #ffffff;
-  cursor: pointer; }
 
 .page-header__scroll-link {
   font-family: "PT Mono", "Arial", sans-serif;
@@ -212,6 +199,25 @@ a {
 .page-header__scroll-link:hover {
   color: #00b2ff;
   opacity: 1; }
+
+.page-header__call {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  width: 181px;
+  max-width: 180px;
+  min-height: 45px;
+  padding: 14px 24px 8px;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  background: transparent;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer; }
 
 @media (max-width: 1024px) {
   .page-header__scroll-link {
@@ -633,7 +639,7 @@ a {
   padding-top: 16px;
   padding-right: 34px;
   padding-bottom: 16px;
-  padding-left: 34px;
+  padding-left: 43px;
   text-align: center;
   max-width: 400px;
   min-width: 391px;
@@ -645,8 +651,10 @@ a {
   background: #ffffff;
   border: 1px solid #00b2ff;
   -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  color: #00b2ff; }
+  transition: all 0.3s ease; }
+
+.big-presentasion__button:focus {
+  border: 1px solid #ff0000; }
 
 .big-presentasion__button span:hover {
   color: #00b2ff;
@@ -796,7 +804,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 37px;
+  margin-top: 35px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
@@ -809,16 +817,16 @@ a {
   line-height: 16px;
   width: 230px;
   color: #ffffff;
-  margin-top: 10px;
   opacity: 0.8;
   display: block;
   position: relative;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-top: 5px; }
 
 .form-question__btn label:hover {
   text-decoration: underline; }
 
-.form-question__btn button {
+.form-question__btn a {
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -831,12 +839,19 @@ a {
   outline: none;
   width: 270px;
   min-height: 45px;
-  padding: 10px 10px 10px 10px;
+  padding: 13px 13px 13px 5px;
   border-radius: 5px;
+  letter-spacing: 0.05em;
   text-transform: uppercase; }
 
-.form-question__btn button:hover {
+.form-question__btn a:hover {
   border: 1px solid #00b2ff;
+  background-color: #ffffff;
+  color: #00b2ff;
+  cursor: pointer; }
+
+.form-question__btn a:focus {
+  border: 1px solid #ff0000;
   background-color: #ffffff;
   color: #00b2ff;
   cursor: pointer; }
@@ -850,7 +865,8 @@ a {
   font-size: 16px;
   line-height: 42px;
   background-color: #19baff;
-  color: #ffffff; }
+  color: #ffffff;
+  opacity: 1; }
 
 .form-question__inputs input::-moz-placeholder,
 .form-question__wrap form textarea::-moz-placeholder,
@@ -861,7 +877,8 @@ a {
   font-size: 16px;
   line-height: 42px;
   background-color: #19baff;
-  color: #ffffff; }
+  color: #ffffff;
+  opacity: 1; }
 
 .form-question__inputs input:-ms-input-placeholder,
 .form-question__wrap form textarea:-ms-input-placeholder,
@@ -872,7 +889,8 @@ a {
   font-size: 16px;
   line-height: 42px;
   background-color: #19baff;
-  color: #ffffff; }
+  color: #ffffff;
+  opacity: 1; }
 
 .form-question__inputs input::-ms-input-placeholder,
 .form-question__wrap form textarea::-ms-input-placeholder,
@@ -883,7 +901,8 @@ a {
   font-size: 16px;
   line-height: 42px;
   background-color: #19baff;
-  color: #ffffff; }
+  color: #ffffff;
+  opacity: 1; }
 
 .form-question__inputs input::placeholder,
 .form-question__wrap form textarea::placeholder,
@@ -894,7 +913,8 @@ a {
   font-size: 16px;
   line-height: 42px;
   background-color: #19baff;
-  color: #ffffff; }
+  color: #ffffff;
+  opacity: 1; }
 
 .form-question__inputs input,
 .form-question__wrap form textarea {
@@ -915,9 +935,15 @@ a {
   border-color: #ffffff;
   border: 1px solid #ffffff; }
 
+.form-question__inputs .form-question__input input:focus {
+  border: 1px solid #ff0000; }
+
 .form-question__textarea textarea:hover {
   border-color: #ffffff;
   border: 1px solid #ffffff; }
+
+.form-question__textarea textarea:focus {
+  border: 1px solid #ff0000; }
 
 .form-question__inputs input {
   width: 270px;
@@ -959,7 +985,7 @@ a {
 .form-question__consent::before {
   content: "";
   position: absolute;
-  top: -6px;
+  top: 1px;
   left: -34px;
   height: 19px;
   width: 19px;
@@ -975,7 +1001,7 @@ a {
   width: 20px;
   height: 20px;
   left: -35px;
-  top: 1px; }
+  top: 2px; }
 
 @media (max-width: 1023px) {
   .form-question {
@@ -1003,7 +1029,7 @@ a {
   .form-question__text {
     width: 596px;
     min-height: 160px; }
-  .form-question__btn button {
+  .form-question__btn a {
     width: 279px; }
   .form-question__btn label span {
     left: -38px;
@@ -1015,8 +1041,11 @@ a {
     width: 5px;
     height: 8px; }
   .form-question__consent::before {
-    top: -2px;
-    left: -39px; } }
+    top: 1px;
+    left: -39px; }
+  .form-question__btn input[type="checkbox"]:checked + label::after {
+    left: -39px;
+    top: 2px; } }
 
 @media (max-width: 767px) {
   .form-question {
@@ -1033,8 +1062,9 @@ a {
     margin-bottom: 23px; }
   .form-question__inputs {
     display: block; }
-  .form-question__btn button {
-    min-width: 100%; }
+  .form-question__btn a {
+    min-width: 100%;
+    display: block; }
   .form-question__wrap form textarea {
     margin-top: 0;
     min-height: 110px;
@@ -1066,19 +1096,24 @@ a {
     height: 8px; }
   .form-question__inputs input::-webkit-input-placeholder,
   .form-question__wrap form textarea::-webkit-input-placeholder {
-    line-height: 26px; }
+    line-height: 26px;
+    opacity: 1; }
   .form-question__inputs input::-moz-placeholder,
   .form-question__wrap form textarea::-moz-placeholder {
-    line-height: 26px; }
+    line-height: 26px;
+    opacity: 1; }
   .form-question__inputs input:-ms-input-placeholder,
   .form-question__wrap form textarea:-ms-input-placeholder {
-    line-height: 26px; }
+    line-height: 26px;
+    opacity: 1; }
   .form-question__inputs input::-ms-input-placeholder,
   .form-question__wrap form textarea::-ms-input-placeholder {
-    line-height: 26px; }
+    line-height: 26px;
+    opacity: 1; }
   .form-question__inputs input::placeholder,
   .form-question__wrap form textarea::placeholder {
-    line-height: 26px; }
+    line-height: 26px;
+    opacity: 1; }
   .form-question__consent::before {
     left: 0;
     height: 18px;
@@ -1241,10 +1276,8 @@ a {
   font-weight: normal;
   font-size: 15px;
   line-height: 16px;
-  margin: 0;
+  margin: 18px 3px 27px;
   padding-left: 21px;
-  margin-top: 12px;
-  margin-bottom: 28px;
   text-transform: uppercase;
   letter-spacing: 0.05em; }
 
@@ -1568,7 +1601,7 @@ a {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
     border-radius: 10px; }
-  .modal__close:hover, .modal__close:focus {
+  .modal__close:hover {
     border-color: white;
     -webkit-transition: border-color 0.3s;
     transition: border-color 0.3s; }
@@ -1598,6 +1631,11 @@ a {
   background-color: #ffffff;
   color: #00b2ff;
   border: 1px solid #00b2ff; }
+
+.form__ask-question--modal:focus {
+  background-color: #ffffff;
+  color: #00b2ff;
+  border: 1px solid #ff0000; }
 
 .form__title {
   margin-top: 0;
@@ -1864,6 +1902,12 @@ a {
       .form__data-processing-text::before {
         width: 17px;
         height: 17px; } }
+
+.form__label--modal input:focus {
+  border: 1px solid #ff0000; }
+
+.form__label--modal-question textarea:focus {
+  border: 1px solid #ff0000; }
 
 .service {
   background-color: #1b2d37;
