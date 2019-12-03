@@ -18,7 +18,7 @@
   width: 570px;
   min-height: 453px;
   margin-left: auto;
-  margin-bottom: 109px;
+  margin-bottom: 113px;
   position: relative;
 }
 
@@ -50,7 +50,7 @@
 
 .form-question__btn {
   display: flex;
-  margin-top: 35px;
+  margin-top: 41px;
   justify-content: space-between;
 }
 
@@ -88,7 +88,6 @@
   min-height: 45px;
   padding: 13px 13px 13px 5px;
   border-radius: 5px;
-
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
@@ -133,6 +132,10 @@
   line-height: 22px;
 }
 
+.form-question__inputs .form-question__input input {
+  border: 1px solid #19baff;
+}
+
 .form-question__inputs .form-question__input input:hover {
   border-color: #ffffff;
 }
@@ -155,10 +158,14 @@
   border: 1px solid #ff0000;
 }
 
+.form-question__textarea textarea {
+  border: 1px solid #19baff;
+}
+
 .form-question__inputs input {
   width: 270px;
   min-height: 50px;
-  padding-left: 21px;
+  padding-left: 16px;
 }
 
 .form-question__inputs {
@@ -170,7 +177,7 @@
   width: 570px;
   min-height: 154px;
   resize: none;
-  margin-top: 45px;
+  margin-top: 38px;
   padding-left: 16px;
   overflow: auto;
   background-color: #19baff;
@@ -257,6 +264,7 @@
   .form-question__text {
     width: 596px;
     min-height: 160px;
+    margin-top: 43px;
   }
 
   .form-question__btn a {
