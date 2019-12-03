@@ -826,7 +826,7 @@ a {
 .form-question__btn label:hover {
   text-decoration: underline; }
 
-.form-question__btn a {
+.form-question__btn button {
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -844,13 +844,13 @@ a {
   letter-spacing: 0.05em;
   text-transform: uppercase; }
 
-.form-question__btn a:hover {
+.form-question__btn button:hover {
   border: 1px solid #00b2ff;
   background-color: #ffffff;
   color: #00b2ff;
   cursor: pointer; }
 
-.form-question__btn a:focus {
+.form-question__btn button:focus {
   border: 1px solid #ff0000;
   background-color: #ffffff;
   color: #00b2ff;
@@ -1036,7 +1036,7 @@ a {
     width: 596px;
     min-height: 160px;
     margin-top: 43px; }
-  .form-question__btn a {
+  .form-question__btn button {
     width: 279px; }
   .form-question__btn label span {
     left: -38px;
@@ -1069,7 +1069,7 @@ a {
     margin-bottom: 23px; }
   .form-question__inputs {
     display: block; }
-  .form-question__btn a {
+  .form-question__btn button {
     min-width: 100%;
     display: block; }
   .form-question__wrap form textarea {

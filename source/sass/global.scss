@@ -50,7 +50,9 @@ body {
 ::before {
   box-sizing: inherit;
 }
-
+// * {
+//   outline: 1px solid red;
+//   }
 a {
   text-decoration: none;
 }
