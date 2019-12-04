@@ -44,11 +44,24 @@
   margin: 0 auto;
   min-height: 52px;
 }
-
-.footer__confidentiality,
-.footer__developed {
-  color: #1b2d37;
-}
+// .footer__copyright-p3 {
+//   color: #111111;
+//   opacity: 0.5;
+//   font-family: $pt-mono;
+//   font-style: normal;
+//   font-weight: normal;
+// }
+// .footer__copyright-p3:hover{
+//   opacity: 1;
+// }
+// .footer__confidentiality,
+// .footer__developed {
+//   color: #1b2d37;
+//   opacity: 0.5;
+//   font-family: $pt-mono;
+//   font-style: normal;
+//   font-weight: normal;
+// }
 
 .footer__copyright-p3 {
   margin-right: 194px;
@@ -63,10 +76,10 @@
   padding-right: 14px;
 }
 
-.footer__confidentiality:hover,
-.footer__developed:hover {
-  color: $blue;
-}
+// .footer__confidentiality:hover,
+// .footer__developed:hover {
+//   opacity: 1;
+// }
 
 .footer__address {
   //min-width: auto;
@@ -166,17 +179,9 @@
   letter-spacing: 0.05em;
 }
 
-.footer__nav ul li a {
-  font-family: $pt-mono;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 25px;
-  color: #1b2d37;
-  opacity: 0.5;
-}
-
-.footer__nav ul li a:hover {
+.footer__nav ul li a:hover,
+.footer__confidentiality:hover,
+.footer__developed:hover {
   opacity: 1;
 }
 
@@ -220,7 +225,8 @@
   padding-top: 1px;
 }
 
-.footer__copyright-text p {
+.footer__copyright-rights,
+.footer__copyright-devices {
   font-family: $pt-mono;
   font-style: normal;
   font-weight: normal;
@@ -230,6 +236,23 @@
   opacity: 0.5;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+}
+
+.footer__nav ul li a,
+.footer__confidentiality,
+.footer__developed {
+  font-family: $pt-mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #1b2d37;
+  opacity: 0.5;
+}
+
+.footer__copyright-p3,
+.footer__copyright-wow {
+  text-transform: uppercase;
 }
 
 @media (max-width: 1023px) {
@@ -442,6 +465,17 @@
     content: "";
     position: absolute;
     background-repeat: no-repeat;
+    background-image: url("../img/plus.png");
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 5%;
+  }
+
+  .footer__address h3::before {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
     background-image: url("../img/minus.png");
     width: 20px;
     height: 20px;
@@ -453,7 +487,7 @@
     content: "";
     position: absolute;
     background-repeat: no-repeat;
-    background-image: url("../img/plus.png");
+    background-image: url("../img/minus.png");
     width: 20px;
     height: 20px;
     top: 7px;

@@ -6,6 +6,9 @@
   var jsModalName = document.querySelector('#js-modal-name');
   var back = document.querySelector('#back');
 
+  // var phoneMask =   document.querySelector('#feedback-phone'), {
+  //     mask: '+{7}(000)000-00-00'
+  //   });
   document.addEventListener('click', function (evt) {
     if (!modal1.contains(evt.target) && !jsBackCall.contains(evt.target)) {
       modal1.style.display = 'none';

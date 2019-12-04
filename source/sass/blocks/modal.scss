@@ -198,21 +198,28 @@
 
     &--textarea {
       margin-bottom: 26px;
+      box-shadow: none;
+      border-radius: 0;
     }
   }
 }
 
 .form__container input {
   @include input();
+  box-shadow: none;
+  border-radius: 0;
 }
 
 .form__container--modal input {
   padding: 12px 24px 16px 24px;
+  box-shadow: none;
+  border-radius: 0;
 }
 
 .form__question {
   @include input();
-
+  box-shadow: none;
+  border-radius: 0;
   width: 100%;
   min-height: 156px;
   resize: none;
@@ -287,6 +294,8 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
     white-space: nowrap;
+    box-shadow: none;
+    border-radius: 0;
   }
 
   & input:checked + .form__data-processing-text {
@@ -321,6 +330,8 @@
       &::after {
         top: 5px;
         left: 5px;
+        box-shadow: none;
+        border-radius: 0;
       }
     }
   }
@@ -362,9 +373,15 @@
 }
 
 .form__label--modal input:focus {
-  border: 1px solid #ff0000;
+  border: 1px solid #6e85d6;
+  box-shadow: none;
+  border-radius: 0;
 }
 
 .form__label--modal-question textarea:focus {
-  border: 1px solid #ff0000;
+  border: 1px solid #6e85d6;
+}
+
+.form__data-processing--modal label:hover {
+  color: #071d70;
 }

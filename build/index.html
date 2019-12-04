@@ -225,12 +225,13 @@
             <span class="visually-hidden">Задать вопрос</span>
             <textarea class="form-question__text" name="question" id="question" placeholder="Ваш вопрос" required=""></textarea>
           </label>
+
           <div class="form-question__btn">
-            <button type="submit">Задать вопрос</button>
-            <input type="checkbox" id="consent" name="consent" required="">
-            <label class="form-question__consent" for="consent">Я согласен на обработку персональных данных
-            </label>
-          </div>
+              <button type="submit">Задать вопрос</button>
+              <input type="checkbox" id="consent" name="privet" required="">
+              <label class="form-question__consent" for="consent">Я согласен на обработку персональных данных
+              </label>
+            </div>
         </form>
 
       </div>
@@ -321,7 +322,7 @@
             вас бесплатно в удобное время
           </p>
           <button class="modal__close js-modal-close" id="js-modal-close" type="button" aria-label="закрыть"></button>
-          <div class="form__container form__container--modal">
+          <d iv="" class="form__container form__container--modal">
             <label class="form__label form__label--modal">
               <span class="visually-hidden">Имя</span>
               <input id="js-modal-name" type="text" name="name" minlength="3" maxlength="256" placeholder="Имя" required="">
@@ -330,19 +331,19 @@
               <span class="visually-hidden">Телефон</span>
               <input type="tel" name="tel" placeholder="Телефон" required="">
             </label>
-          </div>
-          <label class="form__label form__label--modal-question">
-            <span class="visually-hidden">Ваш вопрос</span>
-            <textarea class="form__question form__question--modal" name="question" placeholder="Ваш вопрос"></textarea>
-          </label>
-          <button class="btn form__ask-question form__ask-question--modal" type="submit">
-            отправить
-          </button>
-          <div class="form__data-processing form__data-processing--modal">
-            <input id="backcall-personal-data-processing" name="yes" type="checkbox" checked="">
-            <label class="form__data-processing-text form__data-processing-text--modal" for="backcall-personal-data-processing">Я согласен на обработку персональных данных</label>
-          </div>
-        </form>
+            <label class="form__label form__label--modal-question">
+              <span class="visually-hidden">Ваш вопрос</span>
+              <textarea class="form__question form__question--modal" name="question" placeholder="Ваш вопрос" required=""></textarea>
+            </label>
+            <button class="btn form__ask-question form__ask-question--modal" type="submit">
+              отправить
+            </button>
+            <div class="form__data-processing form__data-processing--modal">
+              <input id="backcall-personal-data-processing" name="yes" type="checkbox" checked="" required="">
+              <label class="form__data-processing-text form__data-processing-text--modal" for="backcall-personal-data-processing">Я согласен на обработку персональных данных</label>
+            </div>
+        </d></form>
+
       </div>
     </div>
   </div>
