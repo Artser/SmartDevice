@@ -851,7 +851,7 @@ a {
   cursor: pointer; }
 
 .form-question__btn button:focus {
-  border: 1px solid #ff0000;
+  border: 1px solid #7b68ee;
   background-color: #ffffff;
   color: #00b2ff;
   cursor: pointer; }
@@ -939,14 +939,14 @@ a {
   border: 1px solid #ffffff; }
 
 .form-question__inputs .form-question__input input:focus {
-  border: 1px solid #ff0000; }
+  border: 1px solid #7b68ee; }
 
 .form-question__textarea textarea:hover {
   border-color: #ffffff;
   border: 1px solid #ffffff; }
 
 .form-question__textarea textarea:focus {
-  border: 1px solid #ff0000; }
+  border: 1px solid #7b68ee; }
 
 .form-question__textarea textarea {
   border: 1px solid #19baff; }
@@ -1423,7 +1423,7 @@ a {
   .footer__ul {
     padding-left: 0; }
   .footer__nav h2 {
-    padding-left: 3px;
+    padding-left: 0;
     margin: 38px 0 28px; }
   .footer__address {
     -ms-flex-preferred-size: 50%;
@@ -1468,7 +1468,7 @@ a {
     min-width: 290px;
     padding: 0 0 0 15px; }
   .footer__nav h2 {
-    margin: 28px -2px 28px;
+    margin: 28px 0 28px;
     position: relative; }
   .footer__address {
     -ms-flex-preferred-size: 100%;
@@ -1488,8 +1488,8 @@ a {
     padding-bottom: 31px;
     padding-top: 0; }
   .footer__address h3 {
-    margin-top: 25px;
-    margin-bottom: 34px;
+    margin-top: 28px;
+    margin-bottom: 33px;
     position: relative; }
   .footer__address p {
     padding-right: 70px; }
@@ -1510,6 +1510,7 @@ a {
     content: "";
     position: absolute;
     background-repeat: no-repeat;
+    background-image: url("../img/minus.png");
     width: 20px;
     height: 20px;
     top: 0;
@@ -1518,6 +1519,7 @@ a {
     content: "";
     position: absolute;
     background-repeat: no-repeat;
+    background-image: url("../img/plus.png");
     width: 20px;
     height: 20px;
     top: 7px;

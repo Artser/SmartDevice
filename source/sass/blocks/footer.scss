@@ -320,7 +320,7 @@
   }
 
   .footer__nav h2 {
-    padding-left: 3px;
+    padding-left: 0;
     margin: 38px 0 28px;
   }
 
@@ -384,7 +384,7 @@
   }
 
   .footer__nav h2 {
-    margin: 28px -2px 28px;
+    margin: 28px 0 28px;
     position: relative;
   }
 
@@ -404,8 +404,8 @@
   }
 
   .footer__address h3 {
-    margin-top: 25px;
-    margin-bottom: 34px;
+    margin-top: 28px;
+    margin-bottom: 33px;
     position: relative;
   }
 
@@ -442,6 +442,7 @@
     content: "";
     position: absolute;
     background-repeat: no-repeat;
+    background-image: url("../img/minus.png");
     width: 20px;
     height: 20px;
     top: 0;
@@ -452,6 +453,7 @@
     content: "";
     position: absolute;
     background-repeat: no-repeat;
+    background-image: url("../img/plus.png");
     width: 20px;
     height: 20px;
     top: 7px;
