@@ -967,8 +967,13 @@ a {
   position: absolute;
   opacity: 0;
   cursor: pointer;
-  height: 0;
-  width: 0; }
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
 
 .form-question__consent::before {
   content: "";
@@ -1166,11 +1171,19 @@ a {
   min-height: 52px; }
 
 .footer__copyright-p3 {
-  margin-right: 194px; }
+  margin-right: 40px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10%;
+          flex: 1 1 10%;
+  white-space: nowrap; }
 
 .footer__copyright-wow {
   margin-right: 10px;
-  margin-left: 210px; }
+  margin-left: auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10%;
+          flex: 1 1 10%;
+  white-space: nowrap; }
 
 .footer__icon li {
   padding-right: 14px; }
@@ -1183,10 +1196,18 @@ a {
       flex-basis: 33.333%; }
 
 .footer__copyright-rights {
-  margin-right: 74px; }
+  margin-right: 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10%;
+          flex: 1 1 10%;
+  white-space: nowrap; }
 
 .footer__copyright-devices {
-  margin-right: 143px; }
+  margin-right: 40px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10%;
+          flex: 1 1 10%;
+  white-space: nowrap; }
 
 .footer__logo-img {
   display: -webkit-box;
@@ -1383,9 +1404,13 @@ a {
     margin-right: 189px;
     margin-bottom: 20px; }
   .footer__copyright-wow {
-    margin-right: 0;
-    margin-left: 123px;
-    margin-top: 0; }
+    margin-top: 0;
+    margin-right: 10px;
+    margin-left: auto;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 10%;
+            flex: 1 1 10%;
+    white-space: nowrap; }
   .footer__nav {
     min-width: 0;
     margin-right: 0;
@@ -1440,7 +1465,6 @@ a {
     border-bottom: none;
     padding: 38px 0 0 0; }
   .footer__logo ul li {
-    margin-right: -7px;
     padding-left: 7px; }
   .footer__wrapper {
     display: block; }
@@ -1488,7 +1512,9 @@ a {
   .footer__logo-img a p {
     margin-top: 21px; }
   .footer__logo ul {
-    margin-top: 30px; }
+    margin-top: 30px;
+    margin-right: 2px;
+    margin-left: 14px; }
   .footer__hidden {
     display: block; }
   .footer-contaner__collapse::before {
@@ -1526,9 +1552,10 @@ a {
   .footer__hidden .footer__ul {
     display: none; }
   .footer__copyright-p3 {
-    margin-top: -23px;
-    margin-right: 10px;
-    margin-bottom: 20px; }
+    margin-top: 27px;
+    margin-right: 18px;
+    margin-bottom: 20px;
+    margin-left: 25px; }
   .footer__copyright-wow {
     margin-left: 0; } }
 
@@ -1932,6 +1959,9 @@ a {
 
 .form__data-processing--modal label:hover {
   color: #071d70; }
+
+.modal_scrool {
+  overflow: hidden; }
 
 .service {
   background-color: #1b2d37;
