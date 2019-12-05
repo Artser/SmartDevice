@@ -39,7 +39,23 @@
     mask: "+{7}(000)000-00-00"
   });
 
-  var phoneMask2 = IMask(document.getElementById("feedback-phone2"), {
-    mask: "+{7}(000)000-00-00"
-  });
+ var phoneMask2 = IMask(document.getElementById("feedback-phone2"), {
+   mask: "+{7}(000)000-00-00"
+ });
+
+  var tabElement = document.querySelector(".footer-push");
+  if (tabElement) {
+    var items = tabElement.querySelectorAll(".footer-push__i");
+    items.forEach(function(item) {
+      var btn = item.querySelector(".footer-push__toggle");
+
+      btn.addEventListener("click", function() {
+        items.forEach(function(item) {
+          item.classList.remove("footer-push__i--open");
+        });
+
+        item.classList.add("footer-push__i--open");
+      });
+    });
+  }
 })();

@@ -3,6 +3,21 @@
   background-color: #fafafa;
 }
 
+.footer-push {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-basis: 73.666%;
+}
+
+.footer__logo {
+  flex-basis: 31.333%;
+}
+
+.footer-push__toggle {
+  display: none;
+}
+
 .footer__hidden {
   padding: 0;
   margin: 0;
@@ -15,8 +30,8 @@
 
 .footer__ul {
   column-count: 2;
-  column-gap: 73px;
-  padding-left: 19px;
+  column-gap: 45px;
+  padding-left: 0;
   list-style-type: none;
   margin-top: 0;
 }
@@ -46,7 +61,7 @@
 }
 
 .footer__copyright-p3 {
-  margin-right: 40px;
+  //margin-right: 40px;
   flex: 1 1 10%;
   white-space: nowrap;
 }
@@ -63,12 +78,9 @@
 }
 
 .footer__address {
-  //min-width: auto;
-  padding-left: 71px;
-}
-
-.footer-contaner {
-  flex-basis: 33.333%;
+  padding-left: 8.9%;
+  margin: 0;
+  padding-right: 1px;
 }
 
 .footer__copyright-rights {
@@ -146,8 +158,8 @@
 }
 
 .footer__nav {
-  min-width: 564px;
-  margin-right: 41px;
+  //min-width: 564px;
+  margin-right: 4.5%;
   padding-left: 0 px;
 }
 
@@ -158,7 +170,7 @@
   font-size: 15px;
   line-height: 16px;
   margin: 18px 3px 27px;
-  padding-left: 21px;
+  padding-left: 1px;
 
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -245,6 +257,10 @@
     margin-top: 9px;
   }
 
+  .footer-push {
+    flex-basis: 99.666%;
+  }
+
   .footer__logo-img p {
     padding-top: 16px;
     line-height: 18px;
@@ -296,7 +312,7 @@
 
   .footer__copyright-p3 {
     margin-top: -1px;
-    margin-right: 189px;
+    margin-right: 41%;
     margin-bottom: 20px;
   }
 
@@ -312,7 +328,7 @@
     min-width: 0;
     margin-right: 0;
     flex-basis: 50%;
-    padding: 0 0 0 26px;
+    padding: 0 0 0 24px;
   }
 
   .footer__nav ul {
@@ -375,6 +391,20 @@
     padding: 38px 0 0 0;
   }
 
+  .footer-push {
+    flex-direction: column;
+  }
+
+  .footer-push__body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+
+  .footer-push__i--open .footer-push__body {
+    max-height: 500px;
+  }
+
   .footer__logo ul li {
     //margin-right: -7px;
     padding-left: 7px;
@@ -391,6 +421,26 @@
     border-bottom: 1px solid rgba(95, 105, 98, 0.2);
     min-width: 290px;
     padding: 0 0 0 15px;
+    position: relative;
+  }
+
+  .footer-push__toggle {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    display: block;
+    width: 18px;
+    height: 18px;
+    //background: 0 0;
+    background-image: url("../img/plus.png");
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .footer-push__i--open .footer-push__toggle {
+    background-image: url("../img/minus.png");
+    background-repeat: no-repeat;
   }
 
   .footer__nav h2 {
@@ -404,6 +454,7 @@
     min-width: auto;
     padding-left: 6px;
     padding-bottom: 26px;
+    position: relative;
   }
 
   .footer__copyright-text {
@@ -415,7 +466,7 @@
 
   .footer__address h3 {
     margin-top: 28px;
-    margin-bottom: 33px;
+    margin-bottom: 17px;
     position: relative;
   }
 
@@ -450,50 +501,18 @@
     display: block;
   }
 
-  .footer-contaner__collapse::before {
-    content: "";
-    position: absolute;
-    background-repeat: no-repeat;
-    background-image: url("../img/plus.png");
-    width: 20px;
-    height: 20px;
-    top: 0;
-    right: 5%;
-  }
-
-  .footer__address h3::before {
-    content: "";
-    position: absolute;
-    background-repeat: no-repeat;
-    background-image: url("../img/minus.png");
-    width: 20px;
-    height: 20px;
-    top: 0;
-    right: 5%;
-  }
-
-  .footer-contaner__collapse.active::before {
-    content: "";
-    position: absolute;
-    background-repeat: no-repeat;
-    background-image: url("../img/minus.png");
-    width: 20px;
-    height: 20px;
-    top: 7px;
-    right: 5%;
-  }
-
   .footer-contaner__collapse:hover {
     cursor: pointer;
     text-decoration: underline;
   }
 
-  .footer__span {
-    text-transform: uppercase;
+  .footer-push__toggle:focus {
+    border: 1px solid #6e85d6;
+    outline: 0;
   }
 
-  .footer__hidden .footer__ul {
-    display: none;
+  .footer__span {
+    text-transform: uppercase;
   }
 
   .footer__copyright-p3 {
