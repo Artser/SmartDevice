@@ -1187,17 +1187,14 @@ a {
   min-height: 52px; }
 
 .footer__copyright-p3 {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 10%;
-          flex: 1 1 10%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 217px;
+          flex: 0 0 217px;
   white-space: nowrap; }
 
 .footer__copyright-wow {
   margin-right: 10px;
   margin-left: auto;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 10%;
-          flex: 1 1 10%;
   white-space: nowrap; }
 
 .footer__icon li {
@@ -1210,16 +1207,16 @@ a {
 
 .footer__copyright-rights {
   margin-right: 30px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 10%;
-          flex: 1 1 10%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 162px;
+          flex: 0 0 162px;
   white-space: nowrap; }
 
 .footer__copyright-devices {
   margin-right: 40px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 10%;
-          flex: 1 1 10%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 233px;
+          flex: 0 0 233px;
   white-space: nowrap; }
 
 .footer__logo-img {
@@ -1422,9 +1419,6 @@ a {
     margin-top: 0;
     margin-right: 10px;
     margin-left: auto;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 10%;
-            flex: 1 1 10%;
     white-space: nowrap; }
   .footer__nav {
     min-width: 0;
@@ -1569,10 +1563,13 @@ a {
   .footer__span {
     text-transform: uppercase; }
   .footer__copyright-p3 {
-    margin-top: 27px;
-    margin-right: 18px;
-    margin-bottom: 20px;
-    margin-left: 25px; }
+    margin-top: 28px;
+    margin-right: 0;
+    margin-bottom: 4px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 217px;
+            flex: 0 0 217px;
+    max-height: 41px; }
   .footer__copyright-wow {
     margin-left: 0; } }
 

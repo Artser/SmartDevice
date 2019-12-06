@@ -62,14 +62,13 @@
 
 .footer__copyright-p3 {
   //margin-right: 40px;
-  flex: 1 1 10%;
+  flex: 0 0 217px;
   white-space: nowrap;
 }
 
 .footer__copyright-wow {
   margin-right: 10px;
   margin-left: auto;
-  flex: 1 1 10%;
   white-space: nowrap;
 }
 
@@ -85,13 +84,13 @@
 
 .footer__copyright-rights {
   margin-right: 30px;
-  flex: 1 1 10%;
+  flex: 0 0 162px;
   white-space: nowrap;
 }
 
 .footer__copyright-devices {
   margin-right: 40px;
-  flex: 1 1 10%;
+  flex: 0 0 233px;
   white-space: nowrap;
 }
 
@@ -171,7 +170,6 @@
   line-height: 16px;
   margin: 18px 3px 27px;
   padding-left: 1px;
-
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -320,7 +318,7 @@
     margin-top: 0;
     margin-right: 10px;
     margin-left: auto;
-    flex: 1 1 10%;
+    //flex: 1 1 10%;
     white-space: nowrap;
   }
 
@@ -406,7 +404,6 @@
   }
 
   .footer__logo ul li {
-    //margin-right: -7px;
     padding-left: 7px;
   }
 
@@ -511,16 +508,17 @@
     outline: 0;
   }
 
-
   .footer__span {
     text-transform: uppercase;
   }
 
   .footer__copyright-p3 {
-    margin-top: 27px;
-    margin-right: 18px;
-    margin-bottom: 20px;
-    margin-left: 25px;
+    margin-top: 28px;
+    margin-right: 0;
+    margin-bottom: 4px;
+    // margin-left: 25px;
+    flex: 0 0 217px;
+    max-height: 41px;
   }
 
   .footer__copyright-wow {
